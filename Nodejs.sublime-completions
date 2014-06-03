@@ -871,10 +871,10 @@
         //     "trigger": "https.get(options, cb);",
         //     "contents": "https.get(${1:options}, ${2:cb});$0"
         // },
-        {
-            "trigger": "module.wrap(script);",
-            "contents": "module.wrap(${1:script});$0"
-        },
+        // {
+        //     "trigger": "module.wrap(script);",
+        //     "contents": "module.wrap(${1:script});$0"
+        // },
         // {
         //     "trigger": "module._debug();",
         //     "contents": "module._debug();$0"
@@ -899,22 +899,22 @@
         //     "trigger": "module._resolveFilename(request, parent);",
         //     "contents": "module._resolveFilename(${1:request}, ${2:parent});$0"
         // },
-        {
-            "trigger": "module.runMain();",
-            "contents": "module.runMain();$0"
-        },
+        // {
+        //     "trigger": "module.runMain();",
+        //     "contents": "module.runMain();$0"
+        // },
         // {
         //     "trigger": "module._initPaths();",
         //     "contents": "module._initPaths();$0"
         // },
-        {
-            "trigger": "module.requireRepl();",
-            "contents": "module.requireRepl();$0"
-        },
-        {
-            "trigger": "module.Module(id, parent);",
-            "contents": "module.Module(${1:id}, ${2:parent});$0"
-        },
+        // {
+        //     "trigger": "module.requireRepl();",
+        //     "contents": "module.requireRepl();$0"
+        // },
+        // {
+        //     "trigger": "module.Module(id, parent);",
+        //     "contents": "module.Module(${1:id}, ${2:parent});$0"
+        // },
         {
             "trigger": "net.createServer();",
             "contents": "net.createServer();$0"
@@ -1413,7 +1413,7 @@
         // },
         {
             "trigger": "require(path)",
-            "contents": "require(${1:path})$0"
+            "contents": "require('${1:path}')$0"
         }
     ]
 }
