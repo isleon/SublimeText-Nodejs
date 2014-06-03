@@ -1,0 +1,236 @@
+{
+    "scope": "source.js - variable.other.js",
+    "completions": [
+        {
+            "trigger": "app.set(name, value);",
+            "contents": "app.set(${1:name}, ${2:value});$0"
+        },
+        {
+            "trigger": "app.get(name);",
+            "contents": "app.get(${1:name});$0"
+        },
+        {
+            "trigger": "app.enable(name);",
+            "contents": "app.enable(${1:name});$0"
+        },
+        {
+            "trigger": "app.disable(name);",
+            "contents": "app.disable(${1:name});$0"
+        },
+        {
+            "trigger": "app.enabled(name);",
+            "contents": "app.enabled(${1:name});$0"
+        },
+        {
+            "trigger": "app.disabled(name);",
+            "contents": "app.disabled(${1:name});$0"
+        },
+        {
+            "trigger": "app.use([path], function);",
+            "contents": "app.use(${1:[path]}, ${2:function});$0"
+        },
+        {
+            "trigger": "app.engine(ext, callback);",
+            "contents": "app.engine(${1:ext}, ${2:callback});$0"
+        },
+        {
+            "trigger": "app.param([name], callback);",
+            "contents": "app.param(${1:[name]}, ${2:callback});$0"
+        },
+        {
+            "trigger": "app.get(path, callback);",
+            "contents": "app.get(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "app.post(path, callback);",
+            "contents": "app.post(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "app.all(path, callback);",
+            "contents": "app.all(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "app.route(path);",
+            "contents": "app.route(${1:path});$0"
+        },
+        {
+            "trigger": "app.locals"
+        },
+        {
+            "trigger": "app.render(view, [options], callback);",
+            "contents": "app.render(${1:view}, ${2:[options]}, ${3:callback});$0"
+        },
+        {
+            "trigger": "app.listen(port);",
+            "contents": "app.listen(${1:port});$0"
+        },
+        {
+            "trigger": "req.params"
+        },
+        {
+            "trigger": "req.query"
+        },
+        {
+            "trigger": "req.param(name);",
+            "contents": "req.param(${1:name});$0"
+        },
+        {
+            "trigger": "req.route"
+        },
+        {
+            "trigger": "req.cookies"
+        },
+        {
+            "trigger": "req.signedCookies"
+        },
+        {
+            "trigger": "req.get(field);",
+            "contents": "req.get(${1:field});$0"
+        },
+        {
+            "trigger": "req.accepts(types);",
+            "contents": "req.accepts(${1:types});$0"
+        },
+        {
+            "trigger": "req.acceptsCharset(charset);",
+            "contents": "req.acceptsCharset(${1:charset});$0"
+        },
+        {
+            "trigger": "req.is(type)",
+            "contents": "req.is(${1:type})$0"
+        },
+        {
+            "trigger": "req.ip"
+        },
+        {
+            "trigger": "req.ips"
+        },
+        {
+            "trigger": "req.path"
+        },
+        {
+            "trigger": "req.host"
+        },
+        {
+            "trigger": "req.fresh"
+        },
+        {
+            "trigger": "req.stale"
+        },
+        {
+            "trigger": "req.xhr"
+        },
+        {
+            "trigger": "req.protocol"
+        },
+        {
+            "trigger": "req.secure"
+        },
+        {
+            "trigger": "req.subdomains"
+        },
+        {
+            "trigger": "req.originalUrl"
+        },
+        {
+            "trigger": "res.status(code)",
+            "contents": "res.status(${1:code})$0"
+        },
+        {
+            "trigger": "res.set(field, [value]);",
+            "contents": "res.set(${1:field}, ${2:[value]});$0"
+        },
+        {
+            "trigger": "res.get(field)",
+            "contents": "res.get(${1:field})$0"
+        },
+        {
+            "trigger": "res.cookie(name, value, [options]);",
+            "contents": "res.cookie(${1:name}, ${2:value}, ${3:[options]});$0"
+        },
+        {
+            "trigger": "res.clearCookie(name, [options]);",
+            "contents": "res.clearCookie(${1:name}, ${2:[options]});$0"
+        },
+        {
+            "trigger": "res.redirect([status], url);",
+            "contents": "res.redirect(${1:[status]}, ${2:url});$0"
+        },
+        {
+            "trigger": "res.location"
+        },
+        {
+            "trigger": "res.send([body|status], [body]);",
+            "contents": "res.send(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.json([body|status], [body]);",
+            "contents": "res.json(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.jsonp([body|status], [body]);",
+            "contents": "res.jsonp(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.type(type);",
+            "contents": "res.type(${1:type});$0"
+        },
+        {
+            "trigger": "res.format(object)",
+            "contents": "res.format(${1:object})$0"
+        },
+        {
+            "trigger": "res.attachment([filename])",
+            "contents": "res.attachment(${1:[filename]})$0"
+        },
+        {
+            "trigger": "res.sendfile(path, [options], [fn]]);",
+            "contents": "res.sendfile(${1:path}, ${2:[options]}, ${3:[fn]});$0"
+        },
+        {
+            "trigger": "res.download(path, [options], [fn]]);",
+            "contents": "res.download(${1:path}, ${2:[options]}, ${3:[fn]});$0"
+        },
+        {
+            "trigger": "res.links(links);",
+            "contents": "res.links(${1:links});$0"
+        },
+        {
+            "trigger": "res.locals"
+        },
+        {
+            "trigger": "res.render(view, [locals], callback);",
+            "contents": "res.render(${1:view}, ${2:[locals]}, ${3:callback});$0"
+        },
+        {
+            "trigger": "router.use([path], function);",
+            "contents": "router.use(${1:[path]}, ${2:function});$0"
+        },
+        {
+            "trigger": "router.param([name], callback);",
+            "contents": "router.param(${1:[name]}, ${2:callback});$0"
+        },
+        {
+            "trigger": "router.route(path);",
+            "contents": "router.route(${1:path});$0"
+        },
+        {
+            "trigger": "router.get(path, callback);",
+            "contents": "router.get(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "router.post(path, callback);",
+            "contents": "router.post(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "express.static(path, options)",
+            "contents": "router.post(${1:path}, ${2:options});$0"
+        },
+        {
+            "trigger": "express.compress()"
+        },
+        {
+            "trigger": "express.cookieParser()"
+        },
+    ]
+}
