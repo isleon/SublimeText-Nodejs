@@ -169,12 +169,12 @@
         {
             "trigger": "process.listeners(type);"
         },
-        {
-            "trigger": "require.resolve(request);"
-        },
-        {
-            "trigger": "require.registerExtension();"
-        },
+        // {
+        //     "trigger": "require.resolve(request);"
+        // },
+        // {
+        //     "trigger": "require.registerExtension();"
+        // },
         // {
         //     "trigger": "_debugger.start(argv, stdin, stdout);",
         //     "contents": "_debugger.start(${1:argv}, ${2:stdin}, ${3:stdout});$0"
@@ -803,110 +803,110 @@
             "trigger": "fs.SyncWriteStream(fd);",
             "contents": "fs.SyncWriteStream(${1:fd});$0"
         },
-        {
-            "trigger": "http.IncomingMessage(socket);",
-            "contents": "http.IncomingMessage(${1:socket});$0"
-        },
-        {
-            "trigger": "http.OutgoingMessage();",
-            "contents": "http.OutgoingMessage();$0"
-        },
-        {
-            "trigger": "http.ServerResponse(req);",
-            "contents": "http.ServerResponse(${1:req});$0"
-        },
-        {
-            "trigger": "http.Agent(options);",
-            "contents": "http.Agent(${1:options});$0"
-        },
-        {
-            "trigger": "http.ClientRequest(options, cb);",
-            "contents": "http.ClientRequest(${1:options}, ${2:cb});$0"
-        },
-        {
-            "trigger": "http.request(options, cb);",
-            "contents": "http.request(${1:options}, ${2:cb});$0"
-        },
-        {
-            "trigger": "http.get(options, cb);",
-            "contents": "http.get(${1:options}, ${2:cb});$0"
-        },
-        {
-            "trigger": "http.Server(requestListener);",
-            "contents": "http.Server(${1:requestListener});$0"
-        },
-        {
-            "trigger": "http.createServer(requestListener);",
-            "contents": "http.createServer(${1:requestListener});$0"
-        },
-        {
-            "trigger": "http._connectionListener(socket);",
-            "contents": "http._connectionListener(${1:socket});$0"
-        },
-        {
-            "trigger": "http.Client(port, host);",
-            "contents": "http.Client(${1:port}, ${2:host});$0"
-        },
-        {
-            "trigger": "http.createClient(port, host);",
-            "contents": "http.createClient(${1:port}, ${2:host});$0"
-        },
-        {
-            "trigger": "https.Server(opts, requestListener);",
-            "contents": "https.Server(${1:opts}, ${2:requestListener});$0"
-        },
-        {
-            "trigger": "https.createServer(opts, requestListener);",
-            "contents": "https.createServer(${1:opts}, ${2:requestListener});$0"
-        },
-        {
-            "trigger": "https.Agent(options);",
-            "contents": "https.Agent(${1:options});$0"
-        },
-        {
-            "trigger": "https.request(options, cb);",
-            "contents": "https.request(${1:options}, ${2:cb});$0"
-        },
-        {
-            "trigger": "https.get(options, cb);",
-            "contents": "https.get(${1:options}, ${2:cb});$0"
-        },
+        // {
+        //     "trigger": "http.IncomingMessage(socket);",
+        //     "contents": "http.IncomingMessage(${1:socket});$0"
+        // },
+        // {
+        //     "trigger": "http.OutgoingMessage();",
+        //     "contents": "http.OutgoingMessage();$0"
+        // },
+        // {
+        //     "trigger": "http.ServerResponse(req);",
+        //     "contents": "http.ServerResponse(${1:req});$0"
+        // },
+        // {
+        //     "trigger": "http.Agent(options);",
+        //     "contents": "http.Agent(${1:options});$0"
+        // },
+        // {
+        //     "trigger": "http.ClientRequest(options, cb);",
+        //     "contents": "http.ClientRequest(${1:options}, ${2:cb});$0"
+        // },
+        // {
+        //     "trigger": "http.request(options, cb);",
+        //     "contents": "http.request(${1:options}, ${2:cb});$0"
+        // },
+        // {
+        //     "trigger": "http.get(options, cb);",
+        //     "contents": "http.get(${1:options}, ${2:cb});$0"
+        // },
+        // {
+        //     "trigger": "http.Server(requestListener);",
+        //     "contents": "http.Server(${1:requestListener});$0"
+        // },
+        // {
+        //     "trigger": "http.createServer(requestListener);",
+        //     "contents": "http.createServer(${1:requestListener});$0"
+        // },
+        // {
+        //     "trigger": "http._connectionListener(socket);",
+        //     "contents": "http._connectionListener(${1:socket});$0"
+        // },
+        // {
+        //     "trigger": "http.Client(port, host);",
+        //     "contents": "http.Client(${1:port}, ${2:host});$0"
+        // },
+        // {
+        //     "trigger": "http.createClient(port, host);",
+        //     "contents": "http.createClient(${1:port}, ${2:host});$0"
+        // },
+        // {
+        //     "trigger": "https.Server(opts, requestListener);",
+        //     "contents": "https.Server(${1:opts}, ${2:requestListener});$0"
+        // },
+        // {
+        //     "trigger": "https.createServer(opts, requestListener);",
+        //     "contents": "https.createServer(${1:opts}, ${2:requestListener});$0"
+        // },
+        // {
+        //     "trigger": "https.Agent(options);",
+        //     "contents": "https.Agent(${1:options});$0"
+        // },
+        // {
+        //     "trigger": "https.request(options, cb);",
+        //     "contents": "https.request(${1:options}, ${2:cb});$0"
+        // },
+        // {
+        //     "trigger": "https.get(options, cb);",
+        //     "contents": "https.get(${1:options}, ${2:cb});$0"
+        // },
         {
             "trigger": "module.wrap(script);",
             "contents": "module.wrap(${1:script});$0"
         },
-        {
-            "trigger": "module._debug();",
-            "contents": "module._debug();$0"
-        },
-        {
-            "trigger": "module._findPath(request, paths);",
-            "contents": "module._findPath(${1:request}, ${2:paths});$0"
-        },
-        {
-            "trigger": "module._nodeModulePaths(from);",
-            "contents": "module._nodeModulePaths(${1:from});$0"
-        },
-        {
-            "trigger": "module._resolveLookupPaths(request, parent);",
-            "contents": "module._resolveLookupPaths(${1:request}, ${2:parent});$0"
-        },
-        {
-            "trigger": "module._load(request, parent, isMain);",
-            "contents": "module._load(${1:request}, ${2:parent}, ${3:isMain});$0"
-        },
-        {
-            "trigger": "module._resolveFilename(request, parent);",
-            "contents": "module._resolveFilename(${1:request}, ${2:parent});$0"
-        },
+        // {
+        //     "trigger": "module._debug();",
+        //     "contents": "module._debug();$0"
+        // },
+        // {
+        //     "trigger": "module._findPath(request, paths);",
+        //     "contents": "module._findPath(${1:request}, ${2:paths});$0"
+        // },
+        // {
+        //     "trigger": "module._nodeModulePaths(from);",
+        //     "contents": "module._nodeModulePaths(${1:from});$0"
+        // },
+        // {
+        //     "trigger": "module._resolveLookupPaths(request, parent);",
+        //     "contents": "module._resolveLookupPaths(${1:request}, ${2:parent});$0"
+        // },
+        // {
+        //     "trigger": "module._load(request, parent, isMain);",
+        //     "contents": "module._load(${1:request}, ${2:parent}, ${3:isMain});$0"
+        // },
+        // {
+        //     "trigger": "module._resolveFilename(request, parent);",
+        //     "contents": "module._resolveFilename(${1:request}, ${2:parent});$0"
+        // },
         {
             "trigger": "module.runMain();",
             "contents": "module.runMain();$0"
         },
-        {
-            "trigger": "module._initPaths();",
-            "contents": "module._initPaths();$0"
-        },
+        // {
+        //     "trigger": "module._initPaths();",
+        //     "contents": "module._initPaths();$0"
+        // },
         {
             "trigger": "module.requireRepl();",
             "contents": "module.requireRepl();$0"
@@ -1051,34 +1051,34 @@
             "trigger": "punycode.toUnicode(domain);",
             "contents": "punycode.toUnicode(${1:domain});$0"
         },
-        {
-            "trigger": "querystring.unescapeBuffer(s, decodeSpaces);",
-            "contents": "querystring.unescapeBuffer(${1:s}, ${2:decodeSpaces});$0"
-        },
-        {
-            "trigger": "querystring.unescape(s, decodeSpaces);",
-            "contents": "querystring.unescape(${1:s}, ${2:decodeSpaces});$0"
-        },
-        {
-            "trigger": "querystring.escape(str);",
-            "contents": "querystring.escape(${1:str});$0"
-        },
-        {
-            "trigger": "querystring.encode(obj, sep, eq, name);",
-            "contents": "querystring.encode(${1:obj}, ${2:sep}, ${3:eq}, ${4:name});$0"
-        },
-        {
-            "trigger": "querystring.stringify(obj, sep, eq, name);",
-            "contents": "querystring.stringify(${1:obj}, ${2:sep}, ${3:eq}, ${4:name});$0"
-        },
-        {
-            "trigger": "querystring.decode(qs, sep, eq);",
-            "contents": "querystring.decode(${1:qs}, ${2:sep}, ${3:eq});$0"
-        },
-        {
-            "trigger": "querystring.parse(qs, sep, eq);",
-            "contents": "querystring.parse(${1:qs}, ${2:sep}, ${3:eq});$0"
-        },
+        // {
+        //     "trigger": "querystring.unescapeBuffer(s, decodeSpaces);",
+        //     "contents": "querystring.unescapeBuffer(${1:s}, ${2:decodeSpaces});$0"
+        // },
+        // {
+        //     "trigger": "querystring.unescape(s, decodeSpaces);",
+        //     "contents": "querystring.unescape(${1:s}, ${2:decodeSpaces});$0"
+        // },
+        // {
+        //     "trigger": "querystring.escape(str);",
+        //     "contents": "querystring.escape(${1:str});$0"
+        // },
+        // {
+        //     "trigger": "querystring.encode(obj, sep, eq, name);",
+        //     "contents": "querystring.encode(${1:obj}, ${2:sep}, ${3:eq}, ${4:name});$0"
+        // },
+        // {
+        //     "trigger": "querystring.stringify(obj, sep, eq, name);",
+        //     "contents": "querystring.stringify(${1:obj}, ${2:sep}, ${3:eq}, ${4:name});$0"
+        // },
+        // {
+        //     "trigger": "querystring.decode(qs, sep, eq);",
+        //     "contents": "querystring.decode(${1:qs}, ${2:sep}, ${3:eq});$0"
+        // },
+        // {
+        //     "trigger": "querystring.parse(qs, sep, eq);",
+        //     "contents": "querystring.parse(${1:qs}, ${2:sep}, ${3:eq});$0"
+        // },
         {
             "trigger": "readline.createInterface(input, output, completer);",
             "contents": "readline.createInterface(${1:input}, ${2:output}, ${3:completer});$0"
@@ -1410,6 +1410,10 @@
         // {
         //     "trigger": "zlib.inflateRaw(buffer, callback);",
         //     "contents": "zlib.inflateRaw(${1:buffer}, ${2:callback});$0"
-        // }
+        // },
+        {
+            "trigger": "require(path)",
+            "contents": "require(${1:path})$0"
+        }
     ]
 }
