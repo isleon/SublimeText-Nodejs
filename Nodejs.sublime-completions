@@ -1,36 +1,36 @@
 {
     "scope": "source.js - variable.other.js",
     "completions": [
-        {
-            "trigger": "ArrayBuffer();"
-        },
-        {
-            "trigger": "Int8Array();"
-        },
-        {
-            "trigger": "Uint8Array();"
-        },
-        {
-            "trigger": "Int16Array();"
-        },
-        {
-            "trigger": "Uint16Array();"
-        },
-        {
-            "trigger": "Int32Array();"
-        },
-        {
-            "trigger": "Uint32Array();"
-        },
-        {
-            "trigger": "Float32Array();"
-        },
-        {
-            "trigger": "Float64Array();"
-        },
-        {
-            "trigger": "DataView();"
-        },
+        // {
+        //     "trigger": "ArrayBuffer();"
+        // },
+        // {
+        //     "trigger": "Int8Array();"
+        // },
+        // {
+        //     "trigger": "Uint8Array();"
+        // },
+        // {
+        //     "trigger": "Int16Array();"
+        // },
+        // {
+        //     "trigger": "Uint16Array();"
+        // },
+        // {
+        //     "trigger": "Int32Array();"
+        // },
+        // {
+        //     "trigger": "Uint32Array();"
+        // },
+        // {
+        //     "trigger": "Float32Array();"
+        // },
+        // {
+        //     "trigger": "Float64Array();"
+        // },
+        // {
+        //     "trigger": "DataView();"
+        // },
         {
             "trigger": "Buffer(subject, encoding, offset);"
         },
@@ -1179,46 +1179,46 @@
             "trigger": "timers.clearInterval(timer);",
             "contents": "timers.clearInterval(${1:timer});$0"
         },
-        {
-            "trigger": "tls.createSecurePair(credentials,\n                                    isServer,\n                                    requestCert,\n                                    rejectUnauthorized);",
-            "contents": "tls.createSecurePair(${1:credentials}, ${2:\n}, ${3:isServer}, ${4:\n}, ${5:requestCert}, ${6:\n}, ${7:rejectUnauthorized});$0"
-        },
-        {
-            "trigger": "tls.Server(/* [options], listener */);",
-            "contents": "tls.Server(${1:/*}, ${2:[options]}, ${3:listener}, ${4:*/});$0"
-        },
-        {
-            "trigger": "tls.createServer(options, listener);",
-            "contents": "tls.createServer(${1:options}, ${2:listener});$0"
-        },
-        {
-            "trigger": "tls.connect(port /* host, options, cb */);",
-            "contents": "tls.connect(${1:port}, ${2:/*}, ${3:host}, ${4:options}, ${5:cb}, ${6:*/});$0"
-        },
-        {
-            "trigger": "tty.isatty(fd);",
-            "contents": "tty.isatty(${1:fd});$0"
-        },
-        {
-            "trigger": "tty.setRawMode(flag);",
-            "contents": "tty.setRawMode(${1:flag});$0"
-        },
-        {
-            "trigger": "tty.getWindowSize();",
-            "contents": "tty.getWindowSize();$0"
-        },
-        {
-            "trigger": "tty.setWindowSize();",
-            "contents": "tty.setWindowSize();$0"
-        },
-        {
-            "trigger": "tty.ReadStream(fd);",
-            "contents": "tty.ReadStream(${1:fd});$0"
-        },
-        {
-            "trigger": "tty.WriteStream(fd);",
-            "contents": "tty.WriteStream(${1:fd});$0"
-        },
+        // {
+        //     "trigger": "tls.createSecurePair(credentials,\n                                    isServer,\n                                    requestCert,\n                                    rejectUnauthorized);",
+        //     "contents": "tls.createSecurePair(${1:credentials}, ${2:\n}, ${3:isServer}, ${4:\n}, ${5:requestCert}, ${6:\n}, ${7:rejectUnauthorized});$0"
+        // },
+        // {
+        //     "trigger": "tls.Server(/* [options], listener */);",
+        //     "contents": "tls.Server(${1:/*}, ${2:[options]}, ${3:listener}, ${4:*/});$0"
+        // },
+        // {
+        //     "trigger": "tls.createServer(options, listener);",
+        //     "contents": "tls.createServer(${1:options}, ${2:listener});$0"
+        // },
+        // {
+        //     "trigger": "tls.connect(port /* host, options, cb */);",
+        //     "contents": "tls.connect(${1:port}, ${2:/*}, ${3:host}, ${4:options}, ${5:cb}, ${6:*/});$0"
+        // },
+        // {
+        //     "trigger": "tty.isatty(fd);",
+        //     "contents": "tty.isatty(${1:fd});$0"
+        // },
+        // {
+        //     "trigger": "tty.setRawMode(flag);",
+        //     "contents": "tty.setRawMode(${1:flag});$0"
+        // },
+        // {
+        //     "trigger": "tty.getWindowSize();",
+        //     "contents": "tty.getWindowSize();$0"
+        // },
+        // {
+        //     "trigger": "tty.setWindowSize();",
+        //     "contents": "tty.setWindowSize();$0"
+        // },
+        // {
+        //     "trigger": "tty.ReadStream(fd);",
+        //     "contents": "tty.ReadStream(${1:fd});$0"
+        // },
+        // {
+        //     "trigger": "tty.WriteStream(fd);",
+        //     "contents": "tty.WriteStream(${1:fd});$0"
+        // },
         {
             "trigger": "url.parse(url, parseQueryString, slashesDenoteHost);",
             "contents": "url.parse(${1:url}, ${2:parseQueryString}, ${3:slashesDenoteHost});$0"
@@ -1299,117 +1299,348 @@
             "trigger": "util._deprecationWarning(moduleId, message);",
             "contents": "util._deprecationWarning(${1:moduleId}, ${2:message});$0"
         },
+        // {
+        //     "trigger": "vm.Script();",
+        //     "contents": "vm.Script();$0"
+        // },
+        // {
+        //     "trigger": "vm.createScript(code, ctx, name);",
+        //     "contents": "vm.createScript(${1:code}, ${2:ctx}, ${3:name});$0"
+        // },
+        // {
+        //     "trigger": "vm.createContext();",
+        //     "contents": "vm.createContext();$0"
+        // },
+        // {
+        //     "trigger": "vm.runInContext();",
+        //     "contents": "vm.runInContext();$0"
+        // },
+        // {
+        //     "trigger": "vm.runInThisContext();",
+        //     "contents": "vm.runInThisContext();$0"
+        // },
+        // {
+        //     "trigger": "vm.runInNewContext();",
+        //     "contents": "vm.runInNewContext();$0"
+        // },
+        // {
+        //     "trigger": "zlib.Zlib();",
+        //     "contents": "zlib.Zlib();$0"
+        // },
+        // {
+        //     "trigger": "zlib.Deflate(opts);",
+        //     "contents": "zlib.Deflate(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.Inflate(opts);",
+        //     "contents": "zlib.Inflate(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.Gzip(opts);",
+        //     "contents": "zlib.Gzip(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.Gunzip(opts);",
+        //     "contents": "zlib.Gunzip(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.DeflateRaw(opts);",
+        //     "contents": "zlib.DeflateRaw(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.InflateRaw(opts);",
+        //     "contents": "zlib.InflateRaw(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.Unzip(opts);",
+        //     "contents": "zlib.Unzip(${1:opts});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createDeflate(o);",
+        //     "contents": "zlib.createDeflate(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createInflate(o);",
+        //     "contents": "zlib.createInflate(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createDeflateRaw(o);",
+        //     "contents": "zlib.createDeflateRaw(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createInflateRaw(o);",
+        //     "contents": "zlib.createInflateRaw(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createGzip(o);",
+        //     "contents": "zlib.createGzip(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createGunzip(o);",
+        //     "contents": "zlib.createGunzip(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.createUnzip(o);",
+        //     "contents": "zlib.createUnzip(${1:o});$0"
+        // },
+        // {
+        //     "trigger": "zlib.deflate(buffer, callback);",
+        //     "contents": "zlib.deflate(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.gzip(buffer, callback);",
+        //     "contents": "zlib.gzip(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.deflateRaw(buffer, callback);",
+        //     "contents": "zlib.deflateRaw(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.unzip(buffer, callback);",
+        //     "contents": "zlib.unzip(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.inflate(buffer, callback);",
+        //     "contents": "zlib.inflate(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.gunzip(buffer, callback);",
+        //     "contents": "zlib.gunzip(${1:buffer}, ${2:callback});$0"
+        // },
+        // {
+        //     "trigger": "zlib.inflateRaw(buffer, callback);",
+        //     "contents": "zlib.inflateRaw(${1:buffer}, ${2:callback});$0"
+        // }
         {
-            "trigger": "vm.Script();",
-            "contents": "vm.Script();$0"
+            "trigger": "app.set(name, value);",
+            "contents": "app.set(${1:name}, ${2:value});$0"
         },
         {
-            "trigger": "vm.createScript(code, ctx, name);",
-            "contents": "vm.createScript(${1:code}, ${2:ctx}, ${3:name});$0"
+            "trigger": "app.get(name);",
+            "contents": "app.get(${1:name});$0"
         },
         {
-            "trigger": "vm.createContext();",
-            "contents": "vm.createContext();$0"
+            "trigger": "app.enable(name);",
+            "contents": "app.enable(${1:name});$0"
         },
         {
-            "trigger": "vm.runInContext();",
-            "contents": "vm.runInContext();$0"
+            "trigger": "app.disable(name);",
+            "contents": "app.disable(${1:name});$0"
         },
         {
-            "trigger": "vm.runInThisContext();",
-            "contents": "vm.runInThisContext();$0"
+            "trigger": "app.enabled(name);",
+            "contents": "app.enabled(${1:name});$0"
         },
         {
-            "trigger": "vm.runInNewContext();",
-            "contents": "vm.runInNewContext();$0"
+            "trigger": "app.disabled(name);",
+            "contents": "app.disabled(${1:name});$0"
         },
         {
-            "trigger": "zlib.Zlib();",
-            "contents": "zlib.Zlib();$0"
+            "trigger": "app.use([path], function);",
+            "contents": "app.use(${1:[path]}, ${2:function});$0"
         },
         {
-            "trigger": "zlib.Deflate(opts);",
-            "contents": "zlib.Deflate(${1:opts});$0"
+            "trigger": "app.engine(ext, callback);",
+            "contents": "app.engine(${1:ext}, ${2:callback});$0"
         },
         {
-            "trigger": "zlib.Inflate(opts);",
-            "contents": "zlib.Inflate(${1:opts});$0"
+            "trigger": "app.param([name], callback);",
+            "contents": "app.param(${1:[name]}, ${2:callback});$0"
         },
         {
-            "trigger": "zlib.Gzip(opts);",
-            "contents": "zlib.Gzip(${1:opts});$0"
+            "trigger": "app.get(path, callback);",
+            "contents": "app.get(${1:path}, ${2:callback});$0"
         },
         {
-            "trigger": "zlib.Gunzip(opts);",
-            "contents": "zlib.Gunzip(${1:opts});$0"
+            "trigger": "app.post(path, callback);",
+            "contents": "app.post(${1:path}, ${2:callback});$0"
         },
         {
-            "trigger": "zlib.DeflateRaw(opts);",
-            "contents": "zlib.DeflateRaw(${1:opts});$0"
+            "trigger": "app.all(path, callback);",
+            "contents": "app.all(${1:path}, ${2:callback});$0"
         },
         {
-            "trigger": "zlib.InflateRaw(opts);",
-            "contents": "zlib.InflateRaw(${1:opts});$0"
+            "trigger": "app.route(path);",
+            "contents": "app.route(${1:path});$0"
         },
         {
-            "trigger": "zlib.Unzip(opts);",
-            "contents": "zlib.Unzip(${1:opts});$0"
+            "trigger": "app.locals"
         },
         {
-            "trigger": "zlib.createDeflate(o);",
-            "contents": "zlib.createDeflate(${1:o});$0"
+            "trigger": "app.render(view, [options], callback);",
+            "contents": "app.render(${1:view}, ${2:[options]}, ${3:callback});$0"
         },
         {
-            "trigger": "zlib.createInflate(o);",
-            "contents": "zlib.createInflate(${1:o});$0"
+            "trigger": "app.listen(port);",
+            "contents": "app.listen(${1:port});$0"
         },
         {
-            "trigger": "zlib.createDeflateRaw(o);",
-            "contents": "zlib.createDeflateRaw(${1:o});$0"
+            "trigger": "req.params"
         },
         {
-            "trigger": "zlib.createInflateRaw(o);",
-            "contents": "zlib.createInflateRaw(${1:o});$0"
+            "trigger": "req.query"
         },
         {
-            "trigger": "zlib.createGzip(o);",
-            "contents": "zlib.createGzip(${1:o});$0"
+            "trigger": "req.param(name);",
+            "contents": "req.param(${1:name});$0"
         },
         {
-            "trigger": "zlib.createGunzip(o);",
-            "contents": "zlib.createGunzip(${1:o});$0"
+            "trigger": "req.route"
         },
         {
-            "trigger": "zlib.createUnzip(o);",
-            "contents": "zlib.createUnzip(${1:o});$0"
+            "trigger": "req.cookies"
         },
         {
-            "trigger": "zlib.deflate(buffer, callback);",
-            "contents": "zlib.deflate(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.signedCookies"
         },
         {
-            "trigger": "zlib.gzip(buffer, callback);",
-            "contents": "zlib.gzip(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.get(field);",
+            "contents": "req.get(${1:field});$0"
         },
         {
-            "trigger": "zlib.deflateRaw(buffer, callback);",
-            "contents": "zlib.deflateRaw(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.accepts(types);",
+            "contents": "req.accepts(${1:types});$0"
         },
         {
-            "trigger": "zlib.unzip(buffer, callback);",
-            "contents": "zlib.unzip(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.acceptsCharset(charset);",
+            "contents": "req.acceptsCharset(${1:charset});$0"
         },
         {
-            "trigger": "zlib.inflate(buffer, callback);",
-            "contents": "zlib.inflate(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.is(type)",
+            "contents": "req.is(${1:type})$0"
         },
         {
-            "trigger": "zlib.gunzip(buffer, callback);",
-            "contents": "zlib.gunzip(${1:buffer}, ${2:callback});$0"
+            "trigger": "req.ip"
         },
         {
-            "trigger": "zlib.inflateRaw(buffer, callback);",
-            "contents": "zlib.inflateRaw(${1:buffer}, ${2:callback});$0"
-        }
+            "trigger": "req.ips"
+        },
+        {
+            "trigger": "req.path"
+        },
+        {
+            "trigger": "req.host"
+        },
+        {
+            "trigger": "req.fresh"
+        },
+        {
+            "trigger": "req.stale"
+        },
+        {
+            "trigger": "req.xhr"
+        },
+        {
+            "trigger": "req.protocol"
+        },
+        {
+            "trigger": "req.secure"
+        },
+        {
+            "trigger": "req.subdomains"
+        },
+        {
+            "trigger": "req.originalUrl"
+        },
+        {
+            "trigger": "res.status(code)",
+            "contents": "res.status(${1:code})$0"
+        },
+        {
+            "trigger": "res.set(field, [value]);",
+            "contents": "res.set(${1:field}, ${2:[value]});$0"
+        },
+        {
+            "trigger": "res.get(field)",
+            "contents": "res.get(${1:field})$0"
+        },
+        {
+            "trigger": "res.cookie(name, value, [options]);",
+            "contents": "res.cookie(${1:name}, ${2:value}, ${3:[options]});$0"
+        },
+        {
+            "trigger": "res.clearCookie(name, [options]);",
+            "contents": "res.clearCookie(${1:name}, ${2:[options]});$0"
+        },
+        {
+            "trigger": "res.redirect([status], url);",
+            "contents": "res.redirect(${1:[status]}, ${2:url});$0"
+        },
+        {
+            "trigger": "res.location"
+        },
+        {
+            "trigger": "res.send([body|status], [body]);",
+            "contents": "res.send(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.json([body|status], [body]);",
+            "contents": "res.json(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.jsonp([body|status], [body]);",
+            "contents": "res.jsonp(${1:[body|status]}, ${2:[body]});$0"
+        },
+        {
+            "trigger": "res.type(type);",
+            "contents": "res.type(${1:type});$0"
+        },
+        {
+            "trigger": "res.format(object)",
+            "contents": "res.format(${1:object})$0"
+        },
+        {
+            "trigger": "res.attachment([filename])",
+            "contents": "res.attachment(${1:[filename]})$0"
+        },
+        {
+            "trigger": "res.sendfile(path, [options], [fn]]);",
+            "contents": "res.sendfile(${1:path}, ${2:[options]}, ${3:[fn]});$0"
+        },
+        {
+            "trigger": "res.download(path, [options], [fn]]);",
+            "contents": "res.download(${1:path}, ${2:[options]}, ${3:[fn]});$0"
+        },
+        {
+            "trigger": "res.links(links);",
+            "contents": "res.links(${1:links});$0"
+        },
+        {
+            "trigger": "res.locals"
+        },
+        {
+            "trigger": "res.render(view, [locals], callback);",
+            "contents": "res.render(${1:view}, ${2:[locals]}, ${3:callback});$0"
+        },
+        {
+            "trigger": "router.use([path], function);",
+            "contents": "router.use(${1:[path]}, ${2:function});$0"
+        },
+        {
+            "trigger": "router.param([name], callback);",
+            "contents": "router.param(${1:[name]}, ${2:callback});$0"
+        },
+        {
+            "trigger": "router.route(path);",
+            "contents": "router.route(${1:path});$0"
+        },
+        {
+            "trigger": "router.get(path, callback);",
+            "contents": "router.get(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "router.post(path, callback);",
+            "contents": "router.post(${1:path}, ${2:callback});$0"
+        },
+        {
+            "trigger": "express.static(path, options)",
+            "contents": "router.post(${1:path}, ${2:options});$0"
+        },
+        {
+            "trigger": "express.compress()"
+        },
+        {
+            "trigger": "express.cookieParser()"
+        },
     ]
 }
