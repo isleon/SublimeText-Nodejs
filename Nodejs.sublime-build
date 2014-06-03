@@ -3,10 +3,10 @@
   "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
   "selector": "source.js",
   "shell":true,
-  "encoding": "cp1252",
+  "encoding": "cp936",
   "windows":
     {
-    	"cmd": ["taskkill /F /IM node.exe & node", "$file"]
+    	"cmd": ["node", "$file"]
     },
   "linux":
     {
