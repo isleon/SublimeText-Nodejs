@@ -3,7 +3,8 @@
     "completions": [
         {
             "trigger": "app.set(name, value);",
-            "contents": "app.set(${1:name}, ${2:value});$0"
+            "contents": "app.set(${1:name}, ${2:value});$0",
+            "description": "Assigns setting name to value."
         },
         {
             "trigger": "app.get(name);",
@@ -39,7 +40,7 @@
         },
         {
             "trigger": "app.get(path, callback);",
-            "contents": "app.get(${1:path}, ${2:callback});$0"
+            "contents": "app.get('/${1:path}', function (req, res, next) {\n\t$2\n});$0"
         },
         {
             "trigger": "app.post(path, callback);",
@@ -162,6 +163,10 @@
         },
         {
             "trigger": "res.location"
+        },
+        {
+            "trigger": "res.send(body);",
+            "contents": "res.send(${1:body});$0"
         },
         {
             "trigger": "res.send([body|status], [body]);",

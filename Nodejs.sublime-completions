@@ -1414,6 +1414,8 @@
         {
             "trigger": "require(path)",
             "contents": "require('${1:path}')$0"
-        }
+        },
+        { "trigger": "exports" },
+        { "trigger": "module.exports" },
     ]
 }

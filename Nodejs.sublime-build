@@ -6,7 +6,7 @@
   "encoding": "cp936",
   "windows":
     {
-        "cmd": ["taskkill", "/F", "/IM", "node.exe", "&", "C:/Program Files/nodejs/node.exe", "$file"],
+        "cmd": ["taskkill", "/F", "/IM", "node.exe", "&", "nodemon", "$file"],
         "shell": true
     },
   "linux":
