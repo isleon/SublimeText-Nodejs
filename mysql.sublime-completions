@@ -1,0 +1,10 @@
+{
+    "scope": "source.js - variable.other.js",
+    "completions": [
+        {
+            "trigger": "connection.query(sql, params, callback);",
+            "contents": "connection.query(${1:sql}, ${2:params}, function(err, rows, fields) {\n\t$3\n});$0",
+            "description": "Assigns setting name to value."
+        },
+    ]
+}

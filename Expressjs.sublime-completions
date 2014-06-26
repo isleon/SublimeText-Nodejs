@@ -10,6 +10,10 @@
             "trigger": "app.get(name);",
             "contents": "app.get(${1:name});$0"
         },
+        // {
+        //     "trigger": "app.get(name, callback);",
+        //     "contents": "app.get('${1:name}', ${2:callback});$0"
+        // },
         {
             "trigger": "app.enable(name);",
             "contents": "app.enable(${1:name});$0"
@@ -44,11 +48,11 @@
         },
         {
             "trigger": "app.post(path, callback);",
-            "contents": "app.post(${1:path}, ${2:callback});$0"
+            "contents": "app.get('/${1:path}', function (req, res, next) {\n\t$2\n});$0"
         },
         {
             "trigger": "app.all(path, callback);",
-            "contents": "app.all(${1:path}, ${2:callback});$0"
+            "contents": "app.get('/${1:path}', function (req, res, next) {\n\t$2\n});$0"
         },
         {
             "trigger": "app.route(path);",
@@ -208,8 +212,12 @@
             "trigger": "res.locals"
         },
         {
+            "trigger": "res.render(view, locals);",
+            "contents": "res.render('${1:view}', ${2:locals});$0"
+        },
+        {
             "trigger": "res.render(view, [locals], callback);",
-            "contents": "res.render(${1:view}, ${2:[locals]}, ${3:callback});$0"
+            "contents": "res.render('${1:view}', ${2:[locals]}, ${3:callback});$0"
         },
         {
             "trigger": "router.use([path], function);",
