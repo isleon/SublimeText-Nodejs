@@ -1,6 +1,7 @@
 {
     "scope": "source.js - variable.other.js",
     "completions": [
+        { "trigger": "__dirname" },
         // {
         //     "trigger": "ArrayBuffer();"
         // },
@@ -529,11 +530,11 @@
         },
         {
             "trigger": "fs.readFile(path, encoding_);",
-            "contents": "fs.readFile(${1:path}, ${2:encoding_});$0"
+            "contents": "fs.readFile('${1:path}', ${2:encoding_})$0"
         },
         {
             "trigger": "fs.readFileSync(path, encoding);",
-            "contents": "fs.readFileSync(${1:path}, ${2:encoding});$0"
+            "contents": "fs.readFileSync('${1:path}', ${2:encoding})$0"
         },
         {
             "trigger": "fs.close(fd, callback);",
