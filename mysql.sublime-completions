@@ -1,10 +1,23 @@
 {
     "scope": "source.js - variable.other.js",
     "completions": [
+        { "trigger": "connection.connect(callback)" },
+        { "trigger": "connection.changeUser(options, callback)" },
+        { "trigger": "connection.beginTransaction(callback)" },        
+        { "trigger": "connection.commit(callback)" },
+        { "trigger": "connection.rollback(callback)" },
         {
             "trigger": "connection.query(sql, params, callback);",
-            "contents": "connection.query(${1:sql}, ${2:params}, function(err, rows, fields) {\n\t$3\n});$0",
+            "contents": "connection.query(${1:sql}, ${2:params}, function(err, results, fields) {\n\t$3\n});$0",
             "description": "Assigns setting name to value."
-        },
+        }
+        // { "trigger": "connection.ping(callback)" },
+        // { "trigger": "connection.statistics(callback)" },
+        // { "trigger": "connection.end(callback)" },
+        // { "trigger": "connection.destroy()" },
+        // { "trigger": "connection.pause()" },
+        // { "trigger": "connection.resume()" },
+        // { "trigger": "connection.escape(value)" },
+        // { "trigger": "connection.format(sql, values)" },
     ]
 }

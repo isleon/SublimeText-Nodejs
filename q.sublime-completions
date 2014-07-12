@@ -1,0 +1,15 @@
+{
+    "scope": "source.js - variable.other.js",
+    "completions": [
+        // { "trigger": "connection.connect(callback)" },
+        // { "trigger": "connection.changeUser(options, callback)" },
+        // { "trigger": "connection.beginTransaction(callback)" },        
+        // { "trigger": "connection.commit(callback)" },
+        // { "trigger": "connection.rollback(callback)" },
+        {
+            "trigger": "Q.nbind(callback, thisp /*...args*/)",
+            "contents": "Q.nbind(${1:callback}, ${2:thisp});$0",
+            "description": "Assigns setting name to value."
+        }
+    ]
+}

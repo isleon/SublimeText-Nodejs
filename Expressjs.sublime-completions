@@ -48,7 +48,7 @@
         },
         {
             "trigger": "app.post(path, callback);",
-            "contents": "app.get('/${1:path}', function (req, res, next) {\n\t$2\n});$0"
+            "contents": "app.post('/${1:path}', function (req, res, next) {\n\t$2\n});$0"
         },
         {
             "trigger": "app.all(path, callback);",
@@ -69,12 +69,10 @@
             "trigger": "app.listen(port);",
             "contents": "app.listen(${1:port});$0"
         },
-        {
-            "trigger": "req.params"
-        },
-        {
-            "trigger": "req.query"
-        },
+        { "trigger": "req.params" },
+        { "trigger": "req.query" },
+        { "trigger": "req.body" },
+        { "trigger": "req.session" },
         {
             "trigger": "req.param(name);",
             "contents": "req.param(${1:name});$0"
@@ -162,8 +160,8 @@
             "contents": "res.clearCookie(${1:name}, ${2:[options]});$0"
         },
         {
-            "trigger": "res.redirect([status], url);",
-            "contents": "res.redirect(${1:[status]}, ${2:url});$0"
+            "trigger": "res.redirect(url);",
+            "contents": "res.redirect('${1:url}');$0"
         },
         {
             "trigger": "res.location"

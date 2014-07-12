@@ -2,6 +2,17 @@
     "scope": "source.js - variable.other.js",
     "completions": [
         { "trigger": "__dirname" },
+        { "trigger": "function " },
+        { "trigger": "new Date()" },
+        { "trigger": "return " },
+        { 
+            "trigger": "deferred.reject(err);",
+            "contents": "deferred.reject(${1:err});$0"
+        },
+        { 
+            "trigger": "deferred.resolve(data);",
+            "contents": "deferred.resolve(${1:data});$0"
+        },
         // {
         //     "trigger": "ArrayBuffer();"
         // },
