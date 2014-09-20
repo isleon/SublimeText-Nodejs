@@ -3,8 +3,21 @@
     "completions": [
         { "trigger": "__dirname" },
         { "trigger": "function " },
+        { "trigger": "prototype" },
         { "trigger": "new Date()" },
         { "trigger": "return " },
+        { "trigger": "true" },
+        { "trigger": "false" },
+        { "trigger": "Q.defer();" },
+        { "trigger": "deferred.promise;" },
+        { 
+            "trigger": "hasOwnProperty(name)",
+            "contents": "hasOwnProperty(${1:name})$0"
+        },
+        { 
+            "trigger": "JSON.stringify(obj)",
+            "contents": "JSON.stringify(${1:obj})$0"
+        },
         { 
             "trigger": "deferred.reject(err);",
             "contents": "deferred.reject(${1:err});$0"
@@ -760,8 +773,8 @@
             "contents": "fs.futimesSync(${1:fd}, ${2:atime}, ${3:mtime});$0"
         },
         {
-            "trigger": "fs.writeFile(path, data, encoding_, callback);",
-            "contents": "fs.writeFile(${1:path}, ${2:data}, ${3:encoding_}, ${4:callback});$0"
+            "trigger": "fs.writeFile(filename, data, [options], callback);",
+            "contents": "fs.writeFile(${1:filename}, ${2:data}, ${3:[options]}, ${4:callback});$0"
         },
         {
             "trigger": "fs.writeFileSync(path, data, encoding);",
