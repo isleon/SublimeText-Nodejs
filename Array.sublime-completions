@@ -1,0 +1,42 @@
+{
+  "scope": "source.js - variable.other.js",
+  "completions": [
+    { "trigger": "new Array()" },
+    {
+      "trigger": "new Array(size)",
+      "contents": "new Array(${1:size})$0"
+    },
+    { 
+      "trigger": "concat(arrayX, arrayX, ..., arrayX)",
+      "contents": "concat($1)$0"
+    },
+    { 
+      "trigger": "join(separator)",
+      "contents": "join('${1:separator}')$0"
+    },
+    { "trigger": "pop()" },
+    { 
+      "trigger": "push(x1, x2, ..., xn)",
+      "contents": "push($1)$0"
+    },
+    { "trigger": "reverse()" },
+    { "trigger": "shift()" },
+    { 
+      "trigger": "slice(start, end)",
+      "contents": "slice(${1:start}, ${2:end})$0"
+    },
+    { "trigger": "sort()" },
+    { 
+      "trigger": "splice(index,howmany,item1,.....,itemX)",
+      "contents": "splice(${1:index}, ${2:howmany}, ${3:items})$0"
+    },
+    { "trigger": "toSource()" },
+    { "trigger": "toString()" },
+    { "trigger": "toLocaleString()" },
+    { 
+      "trigger": "unshift(x1, x2, ..., xn)",
+      "contents": "unshift(${1:items})$0"
+    },
+    { "trigger": "valueOf()" },
+  ]
+}

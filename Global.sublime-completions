@@ -1,0 +1,63 @@
+{
+  "scope": "source.js - variable.other.js",
+  "completions": [
+    { 
+      "trigger": "decodeURI(URIstring)",
+      "contents": "decodeURI(${1:URIstring})$0"
+    },
+    { 
+      "trigger": "decodeURIComponent(URIstring)",
+      "contents": "decodeURIComponent(${1:URIstring})$0"
+    },
+    { 
+      "trigger": "encodeURI(URIstring)",
+      "contents": "encodeURI(${1:URIstring})$0"
+    },
+    { 
+      "trigger": "encodeURIComponent(URIstring)",
+      "contents": "encodeURIComponent(${1:URIstring})$0"
+    },
+    { 
+      "trigger": "escape(string)",
+      "contents": "escape(${1:string})$0"
+    },
+    { 
+      "trigger": "eval(string)",
+      "contents": "eval(${1:string})$0"
+    },
+    { "trigger": "getClass()" },
+    { 
+      "trigger": "isFinite(number)",
+      "contents": "isFinite(${1:number})$0"
+    },
+    { 
+      "trigger": "isNaN(x)",
+      "contents": "isNaN(${1:x})$0"
+    },
+    { 
+      "trigger": "Number(object)",
+      "contents": "Number(${1:object})$0"
+    },
+    { 
+      "trigger": "parseFloat(string)",
+      "contents": "parseFloat(${1:string})$0"
+    },
+    { 
+      "trigger": "parseInt(string)",
+      "contents": "parseInt(${1:string})$0"
+    },
+    { 
+      "trigger": "String(object)",
+      "contents": "String(${1:object})$0"
+    },
+    { 
+      "trigger": "unescape(string)",
+      "contents": "unescape(${1:string})$0"
+    },
+    { "trigger": "Infinity" },
+    { "trigger": "java" },
+    { "trigger": "NaN" },
+    { "trigger": "Packages" },
+    { "trigger": "undefined" },
+  ]
+}

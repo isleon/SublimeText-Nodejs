@@ -1,0 +1,86 @@
+{
+    "scope": "source.js - variable.other.js",
+    "completions": [
+        {
+            "trigger": "Math.abs",
+            "contents": "Math.abs(${1:x})$0"
+        },
+        {
+            "trigger": "Math.acos",
+            "contents": "Math.acos(${1:x})$0"
+        },
+        {
+            "trigger": "Math.asin",
+            "contents": "Math.asin(${1:x})$0"
+        },
+        {
+            "trigger": "Math.atan",
+            "contents": "Math.atan(${1:x})$0"
+        },
+        {
+            "trigger": "Math.atan2",
+            "contents": "Math.atan2(${1:y}, ${2:x})$0"
+        },
+        {
+            "trigger": "Math.ceil",
+            "contents": "Math.ceil(${1:x})$0"
+        },
+        {
+            "trigger": "Math.cos",
+            "contents": "Math.cos(${1:x})$0"
+        },
+        {
+            "trigger": "Math.cos",
+            "contents": "Math.cos(${1:x})$0"
+        },
+        {
+            "trigger": "Math.exp",
+            "contents": "Math.exp(${1:x})$0"
+        },
+        {
+            "trigger": "Math.floor",
+            "contents": "Math.floor(${1:x})$0"
+        },
+        {
+            "trigger": "Math.log",
+            "contents": "Math.log(${1:x})$0"
+        },
+        {
+            "trigger": "Math.max",
+            "contents": "Math.max(${1:x}, ${2:y})$0"
+        },
+        {
+            "trigger": "Math.min",
+            "contents": "Math.min(${1:x}, ${2:y})$0"
+        },
+        {
+            "trigger": "Math.pow",
+            "contents": "Math.pow(${1:x}, ${2:y})$0"
+        },
+        {
+            "trigger": "Math.random()",
+        },
+        {
+            "trigger": "Math.round",
+            "contents": "Math.round(${1:x})$0"
+        },
+        {
+            "trigger": "Math.sin",
+            "contents": "Math.sin(${1:x})$0"
+        },
+        {
+            "trigger": "Math.sqrt",
+            "contents": "Math.sqrt(${1:x})$0"
+        },
+        {
+            "trigger": "Math.tan",
+            "contents": "Math.tan(${1:x})$0"
+        },
+        {
+            "trigger": "Math.toSource()",
+        },
+        {
+            "trigger": "Math.valueOf()",
+        },
+    ]
+}
