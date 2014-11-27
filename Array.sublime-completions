@@ -38,5 +38,9 @@
       "contents": "unshift(${1:items})$0"
     },
     { "trigger": "valueOf()" },
+    { 
+      "trigger": "Array.prototype.slice.call(arguments, start, end)",
+      "contents": "Array.prototype.slice.call(${1:arguments}, ${2:start})$0"
+    },
   ]
 }
