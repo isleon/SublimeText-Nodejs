@@ -1,0 +1,10 @@
+{
+  "scope": "source.js - variable.other.js",
+  "completions": [
+    { 
+      "trigger": "$",
+      "contents": "$(${1:x})$0"
+    },
+    {  "trigger": "$.ajax" }
+  ]
+}

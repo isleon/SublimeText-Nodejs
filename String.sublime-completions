@@ -1,0 +1,50 @@
+{
+  "scope": "source.js - variable.other.js",
+  "completions": [
+    { "trigger": "new Array()" },
+    {
+      "trigger": "charAt(index)",
+      "contents": "charAt(${1:index})$0"
+    },
+    {
+      "trigger": "concat(str1, str2, ..., strx)",
+      "contents": "concat(${1:strings})$0"
+    },
+    {
+      "trigger": "indexOf(searchvalue,fromindex)",
+      "contents": "indexOf(${1:searchvalue}, ${2:fromindex})$0"
+    },
+    {
+      "trigger": "lastIndexOf(searchvalue,fromindex)",
+      "contents": "lastIndexOf(${1:searchvalue}, ${2:fromindex})$0"
+    },
+    {
+      "trigger": "match(regexp)",
+      "contents": "match(${1:regexp})$0"
+    },
+    {
+      "trigger": "replace(regexp/substr,replacement)",
+      "contents": "replace(${1:substr}, ${2:replacement})$0"
+    },
+    {
+      "trigger": "search(regexp)",
+      "contents": "search(${1:regexp})$0"
+    },
+    {
+      "trigger": "slice(start,end)",
+      "contents": "slice(${1:start}, ${2:end})$0"
+    },
+    {
+      "trigger": "split(separator,howmany)",
+      "contents": "split(${1:separator}, ${2:howmany})$0"
+    },
+    {
+      "trigger": "substr(start,length)",
+      "contents": "substr(${1:start}, ${2:length})$0"
+    },
+    {
+      "trigger": "substring(start,stop)",
+      "contents": "substring(${1:start}, ${2:stop})$0"
+    },
+  ]
+}
