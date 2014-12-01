@@ -1,0 +1,98 @@
+{
+  "scope": "source.js - variable.other.js",
+  "completions": [
+    { "trigger": "var casper = require('casper').create();"  },
+    {
+      "trigger": "chrome.tabs.get(integer tabId, function callback)",
+      "contents": "chrome.tabs.get(${1:tabId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.getCurrent(function callback)",
+      "contents": "chrome.tabs.getCurrent(${1:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.connect(integer tabId, object connectInfo)",
+      "contents": "chrome.tabs.connect(${1:tabId}, ${2:connectInfo})$0"
+    },
+    {
+      "trigger": "chrome.tabs.sendRequest(integer tabId, any request, function responseCallback)",
+      "contents": "chrome.tabs.sendRequest(${1:tabId}, ${2:request}, ${3:responseCallback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.sendMessage(integer tabId, any message, function responseCallback)",
+      "contents": "chrome.tabs.sendMessage(${1:tabId}, ${2:message}, ${3:responseCallback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.getSelected(integer windowId, function callback)",
+      "contents": "chrome.tabs.getSelected(${1:windowId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.getAllInWindow(integer windowId, function callback)",
+      "contents": "chrome.tabs.getAllInWindow(${1:windowId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.create(object createProperties, function callback)",
+      "contents": "chrome.tabs.create(${1:createProperties}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.duplicate(integer tabId, function callback)",
+      "contents": "chrome.tabs.duplicate(${1:tabId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.query(object queryInfo, function callback)",
+      "contents": "chrome.tabs.query(${1:queryInfo}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.highlight(object highlightInfo, function callback)",
+      "contents": "chrome.tabs.highlight(${1:highlightInfo}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.update(integer tabId, object updateProperties, function callback)",
+      "contents": "chrome.tabs.update(${1:tabId}, ${2:updateProperties}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.move(integer or array of integer tabIds, object moveProperties, function callback)",
+      "contents": "chrome.tabs.move(${1:tabIds}, ${2:moveProperties}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.reload(integer tabId, object reloadProperties, function callback)",
+      "contents": "chrome.tabs.reload(${1:tabId}, ${2:reloadProperties}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.remove(integer or array of integer tabIds, function callback)",
+      "contents": "chrome.tabs.remove(${1:tabIds}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.detectLanguage(integer tabId, function callback)",
+      "contents": "chrome.tabs.detectLanguage(${1:tabId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.captureVisibleTab(integer tabId, object options, function callback)",
+      "contents": "chrome.tabs.captureVisibleTab(${1:tabId}, ${2:options}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.executeScript(integer tabId, object details, function callback)",
+      "contents": "chrome.tabs.executeScript(${1:tabId}, ${2:details}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.insertCSS(integer tabId, object details, function callback)",
+      "contents": "chrome.tabs.insertCSS(${1:tabId}, ${2:details}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.setZoom(integer tabId, double zoomFactor, function callback)",
+      "contents": "chrome.tabs.setZoom(${1:tabId}, ${2:zoomFactor}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.getZoom(integer tabId, function callback)",
+      "contents": "chrome.tabs.getZoom(${1:tabId}, ${2:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.setZoomSettings(integer tabId, ZoomSettings zoomSettings, function callback)",
+      "contents": "chrome.tabs.setZoomSettings(${1:tabId}, ${2:zoomSettings}, ${3:callback})$0"
+    },
+    {
+      "trigger": "chrome.tabs.getZoomSettings(integer tabId, function callback)",
+      "contents": "chrome.tabs.getZoomSettings(${1:tabId}, ${2:callback})$0"
+    },
+  ]
+}
